@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Xanh+Mono&display=swap" rel="stylesheet">
+    <title>classe</title>
+    <style>
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Xanh Mono', monospace;
+        }
+        a{ 
+            color: black;
+            text-decoration: none;
+            float: left;
+            width: 100%;
+            height: 100%;
+        }
+        a:hover{
+            background-color: black;
+            color:white;
+        }
+        header{
+            padding: 2em 0 0 1em;
+        }
+        .wrap{
+            padding: 1em;
+            width: 100vw;
+            height: 100vh;
+        }
+        .container{
+            padding: 1px;
+            border: 2px solid black;
+            display: grid;
+            grid-template-columns: repeat(7,1fr);
+            grid-template-rows: repeat(14,1fr);
+            gap: 1px; 
+        }
+        .container>div{
+            display: flex;
+            border: 2px solid black;
+        }
+        div>a{
+            width: 100%;
+            height: 100%;
+        }
+        ol{
+            padding: 2em 0 0 2em;
+        }
+        #un{
+            grid-column: 4/5;
+            grid-row: 4/9;
+        }
+        #dos{
+            grid-column: 1/2;
+            grid-row: 2/4;
+        }
+        #tres{
+            grid-column: 3/4;
+            grid-row: 1/2;
+        }
+        #quatre{
+            grid-column: 1/2;
+            grid-row: 6/12;
+        }
+        #cinc{
+            grid-column: 7/8;
+            grid-row: 11/13;
+        }
+        #sis{
+            grid-column: 5/6;
+            grid-row: 2/4;
+        }
+        #set{
+            grid-column: 2/3;
+            grid-row: 12/14;
+        }
+        #huit{
+            grid-column: 4/5;
+            grid-row: 9/11;
+        }
+        #nou{
+            grid-column: 3/4;
+            grid-row: 9/11;
+        }
+        #deu{
+            grid-column: 7/8;
+            grid-row: 1/3;
+        }
+        #onze{
+            grid-column: 3/4;
+            grid-row: 11/13;
+        }
+        #dotze{
+            grid-column: 7/8;
+            grid-row: 9/11;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>segon gràfica publicitària EASDAlcoi</h1>
+        <h2>23/24</h2>
+    </header>
+    <div class="wrap">
+        <div class="container">
+            <div id="un"><a href="#">1</a></div>
+            <div id="dos"><a href="#">2</a></div>
+            <div id="tres"><a href="#">3</a></div>
+            <div id="quatre"><a href="#">4</a></div>
+            <div id="cinc"><a href="#">5</a></div>
+            <div id="sis"><a href="#">6</a></div>
+            <div id="set"><a href="#">7</a></div>
+            <div id="huit"><a href="#">8</a></div>
+            <div id="nou"><a href="#">9</a></div>
+            <div id="deu"><a href="#">10</a></div>
+            <div id="onze"><a href="#">11</a></div>
+            <div id="dotze"><a href="#">12</a></div>
+        </div>
+        <ol>
+            <li>Eli López</li>
+            <li>Andrea Alfonso</li>
+            <li>Sandra Pla</li>
+            <li>Sara Jácobe</li>
+            <li>Adel Guechi</li>
+            <li>Iker Juan</li>
+            <li>Jordi Cano</li>
+            <li>Andrea Quiñonero</li>
+            <li>Enma Caravaca</li>
+            <li>Aida Navarrete</li>
+            <li>Malena Villavoy</li>
+            <li>Matiilde Calleja</li>
+        </ol>
+    </div>
+
+</body>
+</html>
